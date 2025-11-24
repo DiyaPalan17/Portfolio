@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diya Palan — Portfolio</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa6b2;--accent:#06b6d4}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;color:#e6eef6;background:linear-gradient(180deg,#071022 0%,#071a2a 100%);padding-bottom:4rem}
+    header{background:transparent;padding:1.25rem 1rem;display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto}
+    a.logo{color:#fff;text-decoration:none;font-weight:700;font-size:1.05rem}
+    nav a{color:var(--muted);text-decoration:none;margin-left:1rem}
+    .container{max-width:1100px;margin:1rem auto;padding:1rem}
+    .hero{display:flex;gap:2rem;align-items:center;padding:1.25rem;background:rgba(255,255,255,0.02);border-radius:12px}
+    .avatar{width:140px;height:140px;border-radius:50%;overflow:hidden;border:4px solid rgba(255,255,255,0.06);flex-shrink:0}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .hero h1{margin:0;color:#fff;font-size:1.6rem}
+    .hero p{margin:0.35rem 0;color:var(--muted)}
+    .buttons{margin-top:0.6rem}
+    .btn{display:inline-block;padding:0.5rem 0.9rem;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:#072024}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:1rem;margin-top:1rem}
+    .card{grid-column:span 8s
